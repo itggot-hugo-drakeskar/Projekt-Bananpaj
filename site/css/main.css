@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.mainhead {
+    height: 10vh;
+    background-color: greenyellow;
+    text-align: center;
+
+}
+
+.heading {
+    font-family: "Arial";
+}
+
+.mainnav {
+    height: 5vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_link {
+    margin: 5px;
+    padding: 3px;
+    font-family: "arial";
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    border: groove black 1px;
+}
+
+.mainrow {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-image: url("../img/banana.png");
+    background-size : 60px 40px;
+    background-repeat: repeat;
+}
+
+.mainmain {
+    padding: 10px;
+    width: 80vw;
+
+    
+}
+.slipsum{
+background-color: #e6e6e6;
+}
+
+.mainaside {
+    width: 20vw;
+    background-color: brown;
+}
+
+.mainfoot {
+    height: 5vh;
+    background-color: darkgrey;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
